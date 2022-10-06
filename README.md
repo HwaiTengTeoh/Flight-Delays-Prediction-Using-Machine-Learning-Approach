@@ -30,6 +30,12 @@ To facilitate the modeling process, the only flight data that was considered and
 
 For classification purposes, a binary attribute, namely "flight delay," was added to the record status of the flight. The duration between the flights taking off and the wheels off the ground, as well as flight on land and wheels on land, were derived as this provided information about the actual duration of these activities. Information about a month, day, and day of the week was transformed from the actual flight date. Before modeling, all categorical attributes such as destination airports, day of the week, flight carrier, and flight delay factors were converted to numerical variables via one hot encoding method. One dummy variable would be created for every object in the categorical variable. If the category is presented, the value would be denoted as one. Otherwise, the value would be denoted as zero.
 
+## Exploratory Data Analysis
+
+## Feature Selection
+
+## Modelling and Performance Evaluation
+
 ## Conclusion
 In conclusion, all three objectives were achieved in this project. Valuable attributes for modeling were discovered, such as Departure Delay, Wheels On/Off Elapse, Taxi In/Out, Distance, and many more. These had high coefficient values compared to the dataset from the Bureau of Transportation. Hence they were kept while other attributes were dropped. Four base algorithms were initially modeled, N.B., L.R., D.T., and R.F. Then, other algorithms (Bagging, Boosting, Over/Under sampling) were built to address the imbalance between the two classes. The evaluation of all the F1 scores was considered, showing that AdaBoost with Decision Tree performed the best as it considered the imbalance nature and obtained the highest score compared to all other algorithms.
 
