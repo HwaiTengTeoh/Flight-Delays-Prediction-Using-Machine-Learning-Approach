@@ -1,6 +1,11 @@
 # Flight Delays Prediction Using Machine Learning Approach
 
 ## Introduction
+Flight is an essential mode of transportation in this century, allowing people to travel across far distances in a short amount of time. Several industries have been blooming along with airline industries, and tourism is one of the key players. However, as per recent observation, the COVID-19 pandemic has caused an adverse impact on businesses in terms of maintenance for several areas highly dependent on international tourists. Also, despite the growth of aviation industries, operational inefficiencies still need to be addressed, and one of the prominent ones is flight schedule delays. According to Federal Aviation Administration, flights that are delayed for more than 15 minutes than the scheduled time are considered delayed flights (NASEM, 2014).
+
+In the event of a flight delay, the parties that are usually directly impacted are the airlines and passengers. The delay of one flight could propagate and impact the other subsequent flights. For airlines, higher counts of delays cause passengers' demands to decline. Also, airfares are higher for routes with higher delay counts. Thus, the buffer time is added to schedules to curb the delays, and aircraft can still arrive at their destinations as scheduled. However, this scenario is less likely to happen in crowded or busier airports. A longer buffer time translates to lesser scheduled flights for the day (NEXTOR, 2010).
+
+Several factors lead to flight delays. The Bureau of Transportation Statistics (BTS) of the United States of America has grouped the delay factors into five categories: air carrier, extreme weather, previous late flight, security, and others (BTS, 2021).
 
 ## Problem Statement
 The ability to predict a delay in flight can be helpful for all parties, including airlines and passengers. This study explores the method of predicting flight delay by classifying a specific flight as either delay or no delay. From the initial review, the flight delay dataset is skewed. It is expected since most airlines usually have more non-delayed flights than delayed ones. Hence, this study compares different methods to deal with an imbalanced dataset by training a flight delay prediction model.
