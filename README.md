@@ -7,6 +7,9 @@ In the event of a flight delay, the parties that are usually directly impacted a
 
 Several factors lead to flight delays. The Bureau of Transportation Statistics (BTS) of the United States of America has grouped the delay factors into five categories: air carrier, extreme weather, previous late flight, security, and others (BTS, 2021).
 
+## Motivation of Work
+Flight delays are significant concerns in aviation industries, leading to revenue loss, fuel loss, and customer dissatisfaction. It creates fear among passengers taking a connecting flight, whereby the delay from the first flight could potentially cause them to miss the subsequent flight. Therefore, this scenario is a factor of motivation for this study. With a reliable method to predict flight delays, the event mentioned in the previous context could either be prevented or better managed.
+
 ## Problem Statement
 The ability to predict a delay in flight can be helpful for all parties, including airlines and passengers. This study explores the method of predicting flight delay by classifying a specific flight as either delay or no delay. From the initial review, the flight delay dataset is skewed. It is expected since most airlines usually have more non-delayed flights than delayed ones. Hence, this study compares different methods to deal with an imbalanced dataset by training a flight delay prediction model.
 
@@ -16,8 +19,10 @@ The objectives of this study are:
 2.	To develop machine learning models that classify flight outcomes (either delayed or not delayed) with selected features.
 3.	To evaluate the performance of different machine learning models.
 
-## Motivation
-Flight delays are significant concerns in aviation industries, leading to revenue loss, fuel loss, and customer dissatisfaction. It creates fear among passengers taking a connecting flight, whereby the delay from the first flight could potentially cause them to miss the subsequent flight. Therefore, this scenario is a factor of motivation for this study. With a reliable method to predict flight delays, the event mentioned in the previous context could either be prevented or better managed.
+## Data Sources
+The data was obtained from the "Airline Delay and Cancellation Data, 2009 – 2018" at Kaggle page. The dataset consisting of flight information in the United States from 2009 to 2018 was obtained from the source of the U.S. Department of Transportation's Bureau of Transportation Statistics. In this study, the only data utilized was from the year 2018. It consisted of 27 attributes and 7,213,446 data points.
+
+Here's the link at Kaggle: https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018
 
 ## Data Preprocessing
 To facilitate the modeling process, the only flight data that was considered and included was the data from the busiest airports since they contained the most significant number of schedules for arrival flights in the U.S. Data cleansing was performed on the name of flight carrier, origin airport and destination airport as the abbreviation of IATA code was used. Attributes with more than 50% of missing values that did not provide helpful information to this analysis were dropped—unrelated attributes such as attributes that recorded the outcome of canceled flights and diverted flights were also removed. Since our main objective was to predict flight delay, attributes relating to canceled flights were eliminated. Instances with missing values were removed as the number of missing values was less than 1%, which was relatively small. 
