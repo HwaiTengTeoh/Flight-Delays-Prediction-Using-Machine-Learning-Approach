@@ -1,4 +1,5 @@
 # Flight Delays Prediction Using Machine Learning Approach
+*Note: This repository shares the pairwork project in fulfillment of the Machine Learning class for Master of Data Science coursework.*
 
 ## Introduction
 Flight is an essential mode of transportation in this century, allowing people to travel across far distances in a short amount of time. Several industries have been blooming along with airline industries, and tourism is one of the key players. However, as per recent observation, the COVID-19 pandemic has caused an adverse impact on businesses in terms of maintenance for several areas highly dependent on international tourists. Also, despite the growth of aviation industries, operational inefficiencies still need to be addressed, and one of the prominent ones is flight schedule delays. According to Federal Aviation Administration, flights that are delayed for more than 15 minutes than the scheduled time are considered delayed flights (NASEM, 2014).
