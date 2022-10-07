@@ -35,6 +35,13 @@ For classification purposes, a binary attribute, namely "flight delay," was adde
 ## Feature Selection
 
 ## Modelling and Performance Evaluation
+- The outcome of flight delay is the minority class for this study. The data distribution is skewed, and this class's prediction power is not focused. The resampling method has dramatically helped to put more emphasis on the minority class. 
+- Using SMOTE with the k-nearest neighbor of k = 5, about four synthetic observations were created with a new ratio of 1:0.88 for the number of instances of on-time flight to delayed flight. With oversampling techniques, the risk of overfitting is increased when many synthetic examples are created. 
+- With undersampling techniques, potentially vital information may be lost as we eliminate the existing observation from the dataset. 
+- The two resampling methods employed were SMOTE and random undersampling. After employing SMOTE, an evident surge in recall metric was observed on the test data. 
+- A similar result was obtained after performing random undersampling, whereby the data of the majority class was reduced to a similar number of instances as of the minority class. 
+- The F1 score of models trained with resampled data did not change much compared to the models trained with imbalanced data. However, the recall metric for N.B., L.R., D.T., and R.F. have increased respectively after applying resampling techniques.
+
 ![](<results/Table1.PNG>)
 
 ## Conclusion
