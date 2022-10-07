@@ -30,8 +30,6 @@ To facilitate the modeling process, the only flight data that was considered and
 
 For classification purposes, a binary attribute, namely "flight delay," was added to the record status of the flight. The duration between the flights taking off and the wheels off the ground, as well as flight on land and wheels on land, were derived as this provided information about the actual duration of these activities. Information about a month, day, and day of the week was transformed from the actual flight date. Before modeling, all categorical attributes such as destination airports, day of the week, flight carrier, and flight delay factors were converted to numerical variables via one hot encoding method. One dummy variable would be created for every object in the categorical variable. If the category is presented, the value would be denoted as one. Otherwise, the value would be denoted as zero.
 
-## Exploratory Data Analysis
-
 ## Feature Selection
 The constant variable was removed as it did not provide helpful information to the model. Attributes highly correlated to each other were examined to avoid the multicollinearity effect on the model by selecting the most predictive one. Planned elapsed time, airtime, distance, and actual elapsed time correlate higher than 0.8. In this group, several attributes were highly correlated. To select which attributes to remove, a random forest algorithm was utilized to determine their feature importance. Thus, the actual elapsed time was not removed as it gave the greatest importance compared to other attributes (shown in Table below). 
 
