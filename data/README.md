@@ -11,11 +11,12 @@
 - The development of classification models and their evaluation were performed using the GUI of Weka
 - The preprocessed data were split into training and testing sets before being fed into Weka for computation  
 
-Here are the description for the preprocessed data files:
-- `flight_data_new.csv`
-- flight_data_new_test.arff
-- flight_data_new_test.csv
-- flight_data_new_train.arff
-- flight_data_new_train.csv
-- flight_data_new_train_smote.arff
-- flight_data_new_train_undersample.arff
+Here is the description for the preprocessed data files:
+- `flight_data_new.csv`: Preprocessed and cleansed data of the busiest airport in the US
+- `flight_data_new_test.arff`: Contain 20% of the data from `flight_data_new.csv`, used for models testing, saved in .arff extension for Weka
+- `flight_data_new_test.csv`: Contain 20% of the data from `flight_data_new.csv`, used for models testing, saved in .csv extension
+- `flight_data_new_train.arff`: Contain 80% of the data from `flight_data_new.csv`, used for models training, saved in .arff extension for Weka
+- `flight_data_new_train.csv`: Contain 80% of the data from `flight_data_new.csv`, used for models training, saved in .csv extension
+- `flight_data_new_train_smote.arff`: Resampled data from `flight_data_new_train.arff` using SMOTE algorithms used for models training, saved in .arff extension for Weka
+- `flight_data_new_train_undersample.arff`: Resampled data from `flight_data_new_train.arff` with random undersampling method used for models training, saved in .arff extension for Weka
+
