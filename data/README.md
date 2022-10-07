@@ -12,7 +12,7 @@
 - The preprocessed data were split into training and testing sets before being fed into Weka for computation  
 
 Here is the description for the preprocessed data files:
-1. `**flight_data_new.csv**`: Preprocessed and cleansed data of the busiest airport in the US
+1. **`flight_data_new.csv`**: Preprocessed and cleansed data of the busiest airport in the US
 2. `flight_data_new_test.arff`: Contain 20% of the data from `flight_data_new.csv`, used for models testing, saved in .arff extension for Weka
 3. `flight_data_new_test.csv`: Contain 20% of the data from `flight_data_new.csv`, used for models testing, saved in .csv extension
 4. `flight_data_new_train.arff`: Contain 80% of the data from `flight_data_new.csv`, used for models training, saved in .arff extension for Weka
