@@ -39,7 +39,7 @@ The constant variable was removed as it did not provide helpful information to t
 
 Figure below shows the features the random forest classifier reported along with their importance score, arranged in descending order. It is interesting to note that scheduled arrival day, month, and destination airport did not contribute much to a flight's arrival delay. Attributes with low importance scores were eliminated as keeping all of them did not yield better results for training models. Thus, only the first nine attributes were used to train the remaining models.  
 
-![](<results/Figure1.PNG>)
+![](<results/Figure1.png>)
 
 ## Modelling and Performance Evaluation
 - The outcome of flight delay is the minority class for this study. The data distribution is skewed, and this class's prediction power is not focused. The resampling method has dramatically helped to put more emphasis on the minority class. 
