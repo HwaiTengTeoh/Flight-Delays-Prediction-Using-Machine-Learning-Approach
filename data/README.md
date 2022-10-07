@@ -11,7 +11,7 @@
 - The development of classification models and their evaluation were performed using the GUI of Weka
 - The preprocessed data were split into training and testing sets before being fed into Weka for computation  
 
-Here is the description for the preprocessed data files:
+The description for the preprocessed data files are outlined below:
 - **`flight_data_new.csv`**: Preprocessed and cleansed data of the busiest airport in the US
 - **`flight_data_new_test.arff`**: Contain 20% of the data from `flight_data_new.csv`, used for models testing, saved in .arff extension for Weka
 - **`flight_data_new_test.csv`**: Contain 20% of the data from `flight_data_new.csv`, used for models testing, saved in .csv extension
