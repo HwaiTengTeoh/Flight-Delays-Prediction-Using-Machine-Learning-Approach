@@ -19,4 +19,5 @@ The description for the preprocessed data files are outlined below:
 - **`flight_data_new_train.csv`**: Contain 80% of the data from `flight_data_new.csv`, used for models training, saved in .csv extension
 - **`flight_data_new_train_smote.arff`**: Resampled data from `flight_data_new_train.arff` using SMOTE algorithms used for models training, saved in .arff extension for Weka
 - **`flight_data_new_train_undersample.arff`**: Resampled data from `flight_data_new_train.arff` with random undersampling method used for models training, saved in .arff extension for Weka
+- **`airports.csv`**: Full list of the US airport's abbreviation
 
