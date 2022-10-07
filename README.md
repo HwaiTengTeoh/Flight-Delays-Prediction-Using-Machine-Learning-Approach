@@ -40,6 +40,7 @@ Figure below shows the features the random forest classifier reported along with
 ![](<results/Figure1.png>)
 
 ## Modelling and Performance Evaluation
+*Note: The outcome was delivered by Weka*
 - The outcome of flight delay is the minority class for this study. The data distribution is skewed, and this class's prediction power is not focused. The resampling method has dramatically helped to put more emphasis on the minority class. 
 - Using SMOTE with the k-nearest neighbor of k = 5, about four synthetic observations were created with a new ratio of 1:0.88 for the number of instances of on-time flight to delayed flight. With oversampling techniques, the risk of overfitting is increased when many synthetic examples are created. 
 - With undersampling techniques, potentially vital information may be lost as we eliminate the existing observation from the dataset. 
