@@ -56,5 +56,7 @@ In conclusion, all three objectives were achieved in this project. Valuable attr
 The work can be extended by training the model with the Neural Network algorithm. To handle imbalance data, there are more options of oversampling techniques such as Adaptive Synthetic (ADASYN), which prevents the overlapping of synthetic observations, and undersampling techniques, which employ data cleaning concept using Tomek-link (T.L.) and Condensed Nearest Neighbour (CNN). Other than the resampling techniques, we can also apply Cost-Sensitive Learning, which considers misclassification costs by applying penalties on the wrongly classified results. We can also employ a hybrid method such as SMOTEBoost to handle the imbalanced data.
 
 ## References
-
+- Bureau of Transportation Statistics. (2021, March 16). Understanding the reporting of causes of flight delays and cancellations. Retrieved from: https://www.bts.gov/topics/airlines-and-airports/understanding-reporting-causes-flight-delays-and-cancellations.
+- National Academies of Sciences, Engineering and Medicine (NASEM). (2014). Defining and measuring Aircraft Delay and Airport Capacity Thresholds. Washington, DC: The National Academics Press. https://doi.org/10.17226/22428
+- The National Center of Excellence for Aviation Operations Research (NEXTOR). (2010, October). Total delay impact study: a comprehensive assessment of the costs and impacts of flight delay in the United States. Retrieved from: https://rosap.ntl.bts.gov/view/dot/z6234.
 
